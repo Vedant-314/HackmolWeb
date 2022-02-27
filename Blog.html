@@ -1,0 +1,231 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compitable" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <title>CollegeBuddy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Allura&family=Kaushan+Script&family=Libre+Baskerville&family=Lobster+Two:ital,wght@1,400;1,700&family=Oleo+Script&family=Syne+Tactile&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/logo.png">
+    <!--add favicon here -->
+
+    <!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <section class="sub-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid header">
+                <div>
+                    <h1 class="navbar-brand   colorblue">College Buddy</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+                <img src="images/logo.png" alt="this is logo" height="50px" width="50px">
+                <div class="collapse navbar-collapse options" id="navbarTogglerDemo02 ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT US</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Feedback.html">FEEDBACK</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-------------image--------------->
+    <section class="blog-images">
+
+        <div class="container">
+
+
+            <div class="bottom-left"></div>
+            <div class="top-left"></div>
+            <div class="top-right"></div>
+            <div class="bottom-right"></div>
+        </div>
+    </section>
+    <div class="centered">BLOGS</div>
+
+
+    <section class="blog-content">
+        <div class="row">
+            <!--to get the left and right side div space-->
+            <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+                    <!--to get the left  side div space-->
+                    <div class="col-lg-8  col-md-11 col-11 mx-auto">
+                        <img src="images/blog.jpg" width="800px" height="600px">
+                        <br>
+                        <br>
+                        <h2>write your thoughts and share it with us</h2>
+                        <h4> “Wisdom is not a product of schooling but of the lifelong attempt to acquire it.” – Albert Einstein</h4><br>
+
+                        <p> This quote emphasizes a very important point which is that wisdom cannot be taught in schools, it can only be acquired with life experience. We, as a parent, teacher or child, tend to ignore this. This quote has another connotation
+                            that implies that continuous learning is something that is required for being successful in any field. </p>
+                        <p>Reading books may have become an old concept for today’s children as they are more inclined towards getting information on the internet. Hence, blogs are a fantastic, but underrated method of providing learning and staying up to
+                            date on different topics. They are written by experts and updated frequently. Blog reading can be a great exercise for your child which will keep them updated, get a variety of opinions, and consume more information in a short
+                            amount of time. As parents, you should encourage your child to read informational blogs and learn about things and concepts. </p>
+
+
+                        <div id="data" style="font-size: larger;">
+
+                        </div>
+
+
+                        <div id="comment-box">
+
+                            <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+                            <h3 class="leave-comment">LEAVE A COMMENT</h3>
+                            <script>
+                                const SUPABASE_URL = 'https://yrkatfyljbesyxirncwi.supabase.co'
+                                const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlya2F0ZnlsamJlc3l4aXJuY3dpIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDUyNDM0MzIsImV4cCI6MTk2MDgxOTQzMn0.H9pwiUVmy8Ub0RP6NU8OMeDk0DhHUODd0RB6bEHzxIg'
+                                const _supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+
+                                async function loadData() {
+                                    const {
+                                        data,
+                                        error
+                                    } = await _supabase.from('Comments').select()
+
+                                    console.log(data)
+                                    let htmlData = " ";
+                                    // data.forEach((item, index) => {
+                                    //     console.log(item);
+                                    //     htmlData += `<li>${item.name}</li>
+                                    //         `
+                                    // });
+                                    let htmlData1 = " ";
+                                    data.forEach((item, index) => {
+                                        console.log(item);
+                                        htmlData1 += `<li>${item.comment}</li>
+                                            `
+                                    });
+
+                                    // document.getElementById("user").innerHTML = htmlData;
+                                    document.getElementById("data").innerHTML = htmlData1;
+                                }
+                                loadData()
+
+                                async function insertData(event) {
+                                    event.preventDefault();
+                                    const {
+                                        data,
+                                        error
+                                    } = await _supabase
+                                        .from('Comments')
+                                        .insert([{
+                                            name: document.getElementById('name').value,
+                                            comment: document.getElementById('Content').value,
+                                        }])
+
+                                    console.log(data)
+                                    console.log(error)
+                                }
+                            </script>
+
+                            <for>
+                                <div>
+                                    <label for="uname"><b>Name</b></label><br>
+                                </div>
+                                <div>
+                                    <input id="name" type="text" placeholder="Name" name="uname" required><br>
+                                </div>
+                                <div>
+                                    <br> <label for="psw"><b>Comment</b></label><br>
+                                </div>
+                                <div>
+                                    <textarea id="Content" type="text" placeholder="Content" name="psw" required cols="100" rows="10"></textarea><br>
+                                </div>
+                                <div>
+                                    <br> <button onclick="insertData(event) " type="submit " class="post-btn ">POST COMMENT</button>
+                                </div>
+                                </form>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-7 col-11 justify-content-end m-log-0 m-auto ">
+                        <div class="rwo gy-5 left_div_blog ">
+                            <div id="app">
+                                <div class="note2 ">
+                                    <h2>NOTES</h2>
+                                </div>
+                                <button class="add-note" type="button">+</button>
+                            </div>
+
+
+                            <BR>
+                            <BR>
+                            <!--popular post-->
+                            <div class="popular_post ">
+                                <div class="right_div_title py-4 pl-2 ">
+                                    <h2>Popular post</h2>
+                                </div>
+                                <div class="right_sub_div shadow ">
+
+                                    <ul>
+
+                                        <li class="blog-iteams ">
+                                            <a class="blog-link " aria-current="page " href="https://www.gatesnotes.com/all ">BILL GATES</a></li>
+                                        <li class="blog-iteams ">
+                                            <a class="blog-link " aria-current="page " href="https://www.theatlantic.com/technology/archive/2019/02/blog-post-bezos-sanchez-medium/582316/ ">JEFF BEZOS</a></li>
+                                        <li class="blog-iteams ">
+                                            <a class="blog-link " aria-current="page " href="https://sundarpichai.in/ ">SUNDAR PICHAYI</a></li>
+                                        <li class="blog-iteams ">
+                                            <a class="blog-link " aria-current="page " href="https://www.avanade.com/en/blogs/avanade-insights/tag/satya-nadella ">SATYA NADELLA</a></li>
+
+
+                                    </ul>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="blog.js " defer></script>
+
+</body>
+<footer id="footer">
+    <i class="fab fa-twitter ficon"></i>
+    <i class="fab fa-facebook ficon"></i>
+    <i class="fab fa-instagram-square ficon"></i>
+    <i class="fas fa-envelope ficon"></i><br>
+    <em>© Copyright Debuggers</em>
+
+</footer>
+
+
+</html>
