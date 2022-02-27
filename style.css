@@ -531,12 +531,12 @@ lable {
 
 input[type=submit] {
     display: block;
-    width: 23%;
+    width: 30%;
     margin: auto;
     border-radius: 50px;
     background-color: tan;
     color: white;
-    margin-left: 235px;
+    margin-left: 35%;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
