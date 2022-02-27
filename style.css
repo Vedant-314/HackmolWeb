@@ -565,7 +565,7 @@ input[type=submit]:hover {
 }
 
 .feedbackimg {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(lapbg.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/lapbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
