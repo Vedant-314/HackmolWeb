@@ -51,8 +51,6 @@
 </head>
 
 <body>
-    <a onclick=checkUser()>wel</a>;
-    <p id="wel">Welcome</p>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid header ">
@@ -88,17 +86,7 @@
             <br><button id="btn ">STUDENT</button>
         </a>
     </div>
-     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-    <script>
-        const { createClient } = supabase
-        supabase = createClient('https://fanzvhaxubchgnizklcb.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZhbnp2aGF4dWJjaGduaXprbGNiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDUxOTUwMzUsImV4cCI6MTk2MDc3MTAzNX0.tVJhdjO0moVOPodUJikiYadiiw-50d2dQ1NV5ex8VCI')
-        async function checkUser() {
-    /* if a user is signed in, update local state */
-    const user = supabase.auth.user();
-        }
-        document.queryselector("#wel").innerhtml = user;
-    </script>
-        
+     
 </body>
 
 </html>
